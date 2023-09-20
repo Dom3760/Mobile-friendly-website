@@ -1,0 +1,140 @@
+#page-2 div 
+{
+    background-color: #0E0D0C;
+    display: inline-block;
+
+}
+
+#page-2 div a 
+{
+    display: inline-block;
+}
+
+#page-2
+{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+/* {
+    background-color: black;
+    width: 90%;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px ;
+} */
+
+.button
+{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background-color: #0E0D0C;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+body
+{
+    background: linear-gradient(to right, #252525, rgb(113, 113, 113),black);
+    margin: 0px;
+    padding: 0px;
+}
+
+.button:hover
+{
+    color:black;
+    background-color: rgb(174, 174, 174);
+}
+
+
+.title
+{
+    color: white;
+    height: 100px;
+    width: 300px;
+    margin: 100px auto;
+    border: 1px solid black;
+}
+
+.title-2
+{
+    padding: 0px;
+    text-align: center;
+    margin: auto 0px;
+    font-size: 100px;
+}
+
+.loc, .pic, .about
+{
+    max-width: fit-content;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: rgb(61, 61, 61);
+    padding: 0px 10px;
+}
+
+.eve
+{
+    width:400px;
+    height: 300px;
+}
+.japan
+{
+    width: 400px;
+    height: 300px;
+}
+.kaizin
+{
+    width: 400px;
+    height: 300px;
+}
+
+.eve, .japan, .kaizin
+{
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+/* @media (max-width: 768px) {
+.ent-page 
+    {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0px auto;
+    }
+} */
+/* .ent-page 
+    {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0px auto;
+    } */
+
+.boxes
+{
+    /* display: flex;
+    justify-content: space-between; */
+    height: fit-content;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    /* margin: 100px auto;  */
+}
+
+.txt
+{
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px)
+{
+    
+}
