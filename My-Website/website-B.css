@@ -1,0 +1,110 @@
+#page-2 div 
+{
+    background-color: #0E0D0C;
+    display: inline-block;
+
+}
+
+#page-2 div a 
+{
+    display: inline-block;
+}
+
+#page-2
+{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button
+{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background-color: #0E0D0C;
+    height: 30px;
+    text-align: center;
+    padding: 0px 100px;
+}
+
+body
+{
+    background: linear-gradient(to right, #252525, rgb(113, 113, 113),black);
+    margin: 0px;
+    padding: 0px;
+}
+
+.button:hover
+{
+    color:black;
+    background-color: rgb(174, 174, 174);
+}
+
+
+h2
+{
+    width: 200px;
+    height: 10px;
+}
+
+.para
+{
+    border: 1px solid black;
+    width: 75%;
+    height: 300px;
+    margin: 50px auto;
+    padding: 10px 20px;
+    border-radius: 25px ;
+    background-color: #FFFFFF;
+}
+
+.pic
+{
+    width: 225px;
+    height: 225px;
+    float: right;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.text
+{
+    display: inline-block;
+    width: 78%;
+    font-size: 20px;
+}
+
+.Title-1 
+{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .ent-page
+    {
+        width:100%;
+        height: 50%;
+    }
+
+    .button
+    {
+        padding: 0;
+    }
+
+    .para
+    {
+        height: 20%;
+        overflow: hidden;
+    }
+    .pic
+    {
+        float: none;
+        
+    }
+}
